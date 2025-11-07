@@ -2,6 +2,6 @@
   "src": [
     "pages/Index",
     "pages/MusicLoginPage",
-    "pages/MusicLoginPagePro"
+    "pages/professional/MusicLoginPagePro"
   ]
 }
