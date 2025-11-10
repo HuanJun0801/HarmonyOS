@@ -3,7 +3,7 @@
 struct MusicLoginPage {
   build() {
     Column(){
-      Image($r("app.media.musicPageLogo"))
+      Image($rawfile("musicPage/musicPageLogo.png"))
         .width(113)
         .height(113)
         .margin({
@@ -107,13 +107,13 @@ struct MusicLoginPage {
         top:80
       })
       Row(){
-        Image($r("app.media.qq"))
+        Image($rawfile("musicPage/qq.svg"))
           .width(45)
           .height(45)
-        Image($r("app.media.wx"))
+        Image($rawfile("musicPage/wx.svg"))
           .width(45)
           .height(45)
-        Image($r("app.media.wb"))
+        Image($rawfile("musicPage/wb.svg"))
           .width(45)
           .height(45)
       }
@@ -129,6 +129,6 @@ struct MusicLoginPage {
       right:40,
       left:40
     })
-    .backgroundImage($r("app.media.musicPageBg"))
+    .backgroundImage($rawfile("musicPage/musicPageBg.png"))
   }
 }

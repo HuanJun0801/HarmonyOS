@@ -1,6 +1,6 @@
 @Entry
 @Component
-struct MusicLoginPage {
+struct MusicLoginPagePro {
   // 颜色常量
   private readonly PRIMARY_COLOR: string = '#AAC7CB';
   private readonly WHITE_COLOR: string = '#FFFFFF';
@@ -40,13 +40,13 @@ struct MusicLoginPage {
       left: this.HORIZONTAL_PADDING,
       right: this.HORIZONTAL_PADDING
     })
-    .backgroundImage($r('app.media.musicPageBg'))
+    .backgroundImage($rawfile("musicPage/musicPageBg.png"))
     .backgroundImageSize(ImageSize.Cover)
   }
 
   // 构建Logo
   @Builder BuildLogo() {
-    Image($r('app.media.musicPageLogo'))
+    Image($rawfile("musicPage/musicPageLogo.png"))
       .width(this.LOGO_SIZE)
       .height(this.LOGO_SIZE)
       .margin({
@@ -164,15 +164,15 @@ struct MusicLoginPage {
   // 构建社交登录
   @Builder BuildSocialLogin() {
     Row() {
-      Image($r('app.media.qq'))
+      Image($rawfile("musicPage/qq.svg"))
         .width(this.SOCIAL_ICON_SIZE)
         .height(this.SOCIAL_ICON_SIZE)
 
-      Image($r('app.media.wx'))
+      Image($rawfile("musicPage/wx.svg"))
         .width(this.SOCIAL_ICON_SIZE)
         .height(this.SOCIAL_ICON_SIZE)
 
-      Image($r('app.media.wb'))
+      Image($rawfile("musicPage/wb.svg"))
         .width(this.SOCIAL_ICON_SIZE)
         .height(this.SOCIAL_ICON_SIZE)
     }

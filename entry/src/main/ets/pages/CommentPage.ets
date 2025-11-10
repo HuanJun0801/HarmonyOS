@@ -191,7 +191,7 @@ struct ReplyItem {
           }
           Row() {
             //收藏
-            Image($r('app.media.likeIcon'))
+            Image($rawfile("commentPage/likeIcon.svg"))
               .width(14)
               .height(14)
               .margin({ right: 4 })
@@ -226,7 +226,7 @@ struct mainComment {
       //左边头像
       Column() {
         //设置默认头像
-        Image($r("app.media.avatar_default"))
+        Image($rawfile("commentPage/avatar_default.svg"))
           .width(30)
           .height(30)
           .borderRadius(16)
@@ -281,7 +281,7 @@ struct mainComment {
           }
           Row() {
             //收藏
-            Image($r('app.media.likeIcon'))
+            Image($rawfile("commentPage/likeIcon.svg"))
               .width(14)
               .height(14)
               .margin({ right: 4 })
