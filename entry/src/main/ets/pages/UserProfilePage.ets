@@ -357,7 +357,6 @@ struct UserProfileComponent {
         .borderRadius(10)
     }
     .width("100%")
-    .height(160)
-    .margin({bottom:10})
+    .layoutWeight(1)
   }
 }
