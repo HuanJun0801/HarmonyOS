@@ -50,7 +50,7 @@ struct AddTodosComponent {
                   Checkbox()
                     .select(item.completed)
                     .onChange((value: boolean) => {
-                      // 方法1: 使用数组拷贝和修改
+                      // 使用数组拷贝和修改
                       let newList: TodosItem[] = [];
                       for (let i = 0; i < this.addTodosList.length; i++) {
                         if (i === index) {
