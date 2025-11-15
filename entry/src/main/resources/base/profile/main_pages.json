@@ -5,6 +5,7 @@
     "pages/professional/MusicLoginPagePro",
     "pages/UserLoginPage",
     "pages/UserProfilePage",
-    "pages/AddTodosPage"
+    "pages/AddTodosPage",
+    "pages/ExercisePage"
   ]
 }
