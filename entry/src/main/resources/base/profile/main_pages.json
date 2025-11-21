@@ -6,6 +6,11 @@
     "pages/UserLoginPage",
     "pages/UserProfilePage",
     "pages/AddTodosPage",
-    "pages/ExercisePage"
+    "pages/ExercisePage",
+    "pages/Test",
+    "pages/CommentPage",
+    "pages/CompressImagePage",
+    "pages/PromptActionPage",
+    "pages/SystemDialogPage"
   ]
 }
